@@ -25,12 +25,12 @@ kramdown:
 
 # Site owner
 owner:
-  name: Shyamalapriya Viswanathan
-  avatar: bio-photo.jpg
+  name: 
+  avatar: profile.jpg
   bio: ""
   email: 
   disqus-shortname: 
-  twitter: #username
+  twitter: shyamalapriya
   facebook: #username
   google:
     plus: #username
@@ -39,7 +39,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: shyamalapriya
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
