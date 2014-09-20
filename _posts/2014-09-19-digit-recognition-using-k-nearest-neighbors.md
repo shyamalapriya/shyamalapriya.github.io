@@ -5,6 +5,7 @@ modified:
 categories: 
 excerpt:
 tags: []
+comments: true
 image:
   feature:
 date: 2014-09-19T21:35:10-07:00
