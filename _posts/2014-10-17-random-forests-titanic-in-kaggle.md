@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Random Forests – Titanic in Kaggle"
+title: "Titanic Survivor Prediction(Kaggle) - Implemented using Random forests"
 modified:
 categories: 
 excerpt:
