@@ -39,7 +39,7 @@ The raw data is of the format:
 
 By using the table function, we can determine the frequency of the country per year.
 
-{% highlight r linenos %}
+{% highlight r %}
 Country_table<- table(perm_data$Country_of_Citizenship, perm_data$Year)
 {% endhighlight %}
 
@@ -60,7 +60,7 @@ I used the following functions to determine the rank of the countries at a certa
 
 * rank(x) – determines of the rank of the vector x
 
-{% highlight r linenos %}
+{% highlight r %}
 > vec<-c(49,35,75,109,26,555,24,555,799,56)
 > rank(vec, ties.method="first")
 [1]  4  3  6  7  2  8  1  9 10  5
@@ -73,8 +73,8 @@ The ties.method specifies the logic to use when there are ties in the ranking, i
 
 For my use case, I did the following:
 
-{% highlight r linenos %}
-> ave(Count, Year, FUN = function(x) rank(-x, ties.method = "first"))
+{% highlight r %}
+ave(Count, Year, FUN = function(x) rank(-x, ties.method = "first"))
 {% endhighlight %}
 
 The above function, applies the “rank” function grouped by Year, on the Count vector.
@@ -82,8 +82,8 @@ The above function, applies the “rank” function grouped by Year, on the Coun
 
 Finally, I used the transform function to include a new column “Year.rank” to the data frame to obtain the ranks of the country for a particular year. 
 
-{% highlight r linenos %}
-> transform(my_country_count, 
+{% highlight r %}
+transform(my_country_count, 
                 Year.rank = ave(Count, Year, 
                         FUN = function(x) rank(-x, ties.method = "first")))
 {% endhighlight %}
@@ -106,8 +106,8 @@ The final data frame with ranks looks like this:
 
 Using the above data frame, a subsetted top 10 or 20 is used for a line plot. I used ggplot to arrive at the following graph:
 
-{% highlight r linenos %}
-> ggplot(top_10, aes(Year, Country, group= Year.rank, colour =factor(Year.rank))) + 
+{% highlight r %}
+ggplot(top_10, aes(Year, Country, group= Year.rank, colour =factor(Year.rank))) + 
   geom_line(position="dodge",stat="identity") + theme(legend.title=element_blank())
 {% endhighlight %}
 
@@ -115,7 +115,7 @@ Using the above data frame, a subsetted top 10 or 20 is used for a line plot. I 
 The final plot looks like this:
 
 
-![Rank]({{ site.url }}/assets/images/rank.png){: .center-image .responsive-image }
+<a href="{{ site.url }}/assets/images/rank.png" rel="Rank">![Rank]({{ site.url }}/assets/images/rank.png){: .center-image .responsive-image }</a>
 
 
 
