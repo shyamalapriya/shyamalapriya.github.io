@@ -143,7 +143,7 @@ f.close()
 
 The above program runs quite slow as it uses the native arrays and lists of the python language. This program can be fine-tuned using numpy package for python. However, the concepts remain the same. 
 
-So how do we decide which “K” value to use?  We could do this using a “cross-validation set”. The idea is to use a cross-validation to test different values of “K” and use the best value for the test set. This step was not implemented and I used some trial values of “K” ranging from 3 to 100 to determine that K = 10 gave me a pretty good accuracy.
+So how do we decide which “K” value to use?  We could do this using a “cross-validation set”. The idea is to use a cross-validation to test different values of “K” and use the best value for the test set. This step was not implemented and I used some trial values of “K” ranging from 3 to 100 to determine that K = 10 gave me a fairly good accuracy.
 
 This program gave me a prediction accuracy of 96%. So, there it is, a very simple implementation of KNN for digit recognition using python.
 	
