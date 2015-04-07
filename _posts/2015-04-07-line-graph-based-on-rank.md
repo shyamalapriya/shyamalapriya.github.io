@@ -115,7 +115,7 @@ ggplot(top_10, aes(Year, Country, group= Year.rank, colour =factor(Year.rank))) 
 The final plot looks like this:
 
 
-<a href="{{ site.url }}/assets/images/rank.png" rel="Rank">![Rank]({{ site.url }}/assets/images/rank.png){: .center-image .responsive-image }</a>
+<a href="{{ site.url }}/assets/images/rank.png" rel="Rank">![Rank]({{ site.url }}/assets/images/rank.png)</a>
 
 
 
