@@ -7,3 +7,12 @@ comments: false
 ---
 
 Data and Machine Learning Enthusiast
+
+#### Data Visualization Side Project
+
+Built using publicly available PERM job data and R.
+This application gives unique insight into the job market.
+
+Are you paid enough ?? Click to find out !
+
+[https://shyamalapriya.shinyapps.io/perm](https://shyamalapriya.shinyapps.io/perm)
