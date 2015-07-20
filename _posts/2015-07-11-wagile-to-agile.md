@@ -1,24 +1,27 @@
 ---
 layout: post
-title: "Wagile to Agile"
-modified:
-categories: 
-excerpt:
-tags: [agile methodologies]
+title: Wagile to Agile
+modified: null
+categories: null
+excerpt: null
+tags: 
+  - agile methodologies
 comments: true
-image:
-  feature:
-date: 2015-07-11T09:14:10-07:00
+image: 
+  feature: null
+date: {}
+published: true
 ---
+
 
 There is a lot of excitement around moving to agile methodologies. It is definitely enticing when one hears the stories of success and of how quickly things get done.
 
 The agile manifesto states the following four basic principles:
 
-* Individuals and interactions over processes and tools
-* Working software over comprehensive documentation
-* Customer collaboration over contract negotiation
-* Responding to change over following a plan
+* **Individuals and interactions** over processes and tools
+* **Working software** over comprehensive documentation
+* **Customer collaboration** over contract negotiation
+* **Responding to change** over following a plan
 
  That is Agile methodologies value the items on the left more than the items on the right.
 
