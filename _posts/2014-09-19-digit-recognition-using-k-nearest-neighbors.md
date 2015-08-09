@@ -4,7 +4,7 @@ title: "Digit Recognition Using K-Nearest Neighbors"
 modified:
 categories: 
 excerpt:
-tags: []
+tags: [data analytics]
 comments: true
 image:
   feature:

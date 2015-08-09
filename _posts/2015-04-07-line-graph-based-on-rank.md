@@ -4,7 +4,7 @@ title: "Creating a line graph based on Rank"
 modified:
 categories: 
 excerpt:
-tags: []
+tags: [data analytics]
 comments: true
 image:
   feature:

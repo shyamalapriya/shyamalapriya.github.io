@@ -4,7 +4,7 @@ title: "Barplot using 'barplot' and 'ggplot'"
 modified:
 categories: 
 excerpt:
-tags: []
+tags: [data analytics]
 comments: true
 image:
   feature:

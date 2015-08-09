@@ -4,7 +4,7 @@ title: "Titanic Survivor Prediction(Kaggle) - Implemented using Random forests"
 modified:
 categories: 
 excerpt:
-tags: []
+tags: [data analytics]
 image:
   feature:
 date: 2014-10-17T06:46:10-07:00
@@ -14,7 +14,7 @@ Kaggle put out the Titanic classification problem with a simpler beginner level 
 
 There are a couple of tutorials recommended by Kaggle for this competition and I looked up the one by Trevor Stephens.
 
-It is definitely one of the best-written step-by-step blogs with adequate explanation that I have seen. While I don’t want to repeat the entire [tutorial](trevorstephens.com/post/72916401642/titanic-getting-started-with-r), there were some important lessons from the experience of doing it along with Trevor!
+It is definitely one of the best-written step-by-step blogs with adequate explanation that I have seen. While I don’t want to repeat the entire [tutorial](http://trevorstephens.com/post/72916401642/titanic-getting-started-with-r), there were some important lessons from the experience of doing it along with Trevor!
 
 1.	Data exploration (Slicing and dicing data) is an important exercise before jumping into any algorithm implementation. Experiments like predicting everyone dies, or predicting that all females live, trying to see if there were better survival rates if the female were a child. These experiments lets one quickly climb up the leaderboard, without any implementation of any algorithm.
 2.	The first implementation of Decision Tree using the default rpart.control which reduces the complexity of the tree built give just a 0.05% improvement but a huge bump in the kaggle leaderboard. What is done next is very interesting! Trevor overrides the defaults of rpart.control and increases the complexity of the decision tree. This results in over fitting of the data and underperformance of the algorithm, i.e., while the model did very well on the training data; it did poorly on the test data.
