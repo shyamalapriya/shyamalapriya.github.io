@@ -9,7 +9,7 @@ tags:
 comments: true
 image: 
   feature: null
-date: {}
+date: 2015-07-11T09:15:20-07:00
 published: true
 ---
 
