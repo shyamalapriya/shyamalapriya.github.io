@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Shyamalapriya Viswanathan
+title:            Priya Viswanathan
 locale:           en_US
 #url:              http://shyamalapriya.github.io
 
@@ -28,7 +28,7 @@ owner:
   name: 
   avatar: profile.jpg
   bio: ""
-  email: 
+  email: #email
   disqus-shortname: shyamalapriya
   twitter: shyamalapriya
   facebook: #username
@@ -41,11 +41,11 @@ owner:
   bing-verify: 
   github: shyamalapriya
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: shyamalapriya
   instagram: #username
   lastfm: #username
   tumblr: #username
-  pinterest: #username
+  pinterest: shyamalapriya
   foursquare: #username
   steam: #username
   dribbble: #username
