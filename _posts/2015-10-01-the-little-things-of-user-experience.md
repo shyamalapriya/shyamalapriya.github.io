@@ -11,7 +11,7 @@ image:
 date: 2015-10-01T04:20:20-07:00
 ---
 
-As a new blogger, I am experimenting on different aspects of blogging including understanding the analytics of the blog reach.
+As a blogger on Linked In, I am experimenting on different aspects of blogging including understanding the analytics of the blog reach.
 Linked in provides a very basic and simple UI page to understand the trend of a certain blog post.
 
 By the first look at it, a blogger will get to know
