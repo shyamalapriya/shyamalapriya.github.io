@@ -10,8 +10,6 @@ image:
   feature:
 date: 2016-02-24T05:10:20-07:00
 ---
-&nbsp;
-&nbsp;
 
 After reading ["Karthik Rajan’s"](https://www.linkedin.com/in/karthikrajan2) ["post"](https://www.linkedin.com/pulse/what-airbnb-co-founder-did-differently-ted-standout-content-rajan?trk=prof-post) about Airbnb co-founder TEDx talk, I was inspired to visit the TED website for more!
 
