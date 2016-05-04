@@ -10,8 +10,7 @@ image:
   feature:
 date: 2015-12-16T03:21:20-07:00
 ---
-&nbsp;
-&nbsp;
+
 The world is moving at a rapid rate that there is a high demand for people who can “Multitask”.
 
 &nbsp;
